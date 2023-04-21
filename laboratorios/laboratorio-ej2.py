@@ -18,8 +18,4 @@ for i in range(filas):
     for j in range(columnas):
         m[i][j]=m[i][j]*escalar
     
-print(f"la matriz multiplicada por el escalar es: {m}")
-
-
-
-        
+print(f"la matriz multiplicada por el escalar es: {m}")        
