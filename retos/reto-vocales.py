@@ -3,11 +3,13 @@
 palabra = str(input("Ingrese la palabra:"))
 palabra = palabra.lower()
 palabra = list(palabra)
+
 a=0
 e=0
 i=0
 o=0
 u=0
+
 for j in range(len(palabra)):   
     if palabra[j]=="a":
         a=a+1
