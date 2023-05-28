@@ -7,7 +7,7 @@ void main() {
     lista.add(Random().nextInt(10));
   }
   print("El largo de la lista es: $rango");
-  print("La lista generafa es:  $lista");
+  print("La lista generada es:  $lista");
   lista.sort();
   print("La lista ordenada de forma ascendente es: $lista");
   lista.shuffle();
